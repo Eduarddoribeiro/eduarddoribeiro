@@ -5,7 +5,7 @@
 
 ---
 
-## Stacks
+## Stack
 ![My Skills](https://skillicons.dev/icons?i=javascript,html,css,react,tailwind,typescript,nodejs,git&theme=light)
 
 ---
