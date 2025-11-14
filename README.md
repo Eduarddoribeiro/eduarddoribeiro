@@ -1,6 +1,5 @@
 <div align="center">
   <h1>Meu nome é <strong>Eduardo Ribeiro</strong></h1>
-  <hr style="border-top: 1px dashed #f7f6f6; width: 100%; margin-top:0; margin-bottom:20px;">
   <h3>💻 Desenvolvedor <em>Fullstack</em></h3>
 </div>
 
