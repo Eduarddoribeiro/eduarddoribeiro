@@ -16,7 +16,7 @@
 ---
 
 ## Social
-<a href="https://www.linkedin.com/in/eduarddoribeiro" target="_blank">
+<a href="https://www.linkedin.com/in/eduardoribeirodefraga/" target="_blank">
   <img src="https://skillicons.dev/icons?i=linkedin&theme=light" alt="LinkedIn"/>
 </a>
 <a href="https://github.com/eduarddoribeiro" target="_blank">
