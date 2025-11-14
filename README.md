@@ -1,5 +1,5 @@
 <div align="center">
-  <h1>Meu nome é <strong>Eduardo Ribeiro</strong></h1>
+  <h1>👋 Meu nome é <strong>Eduardo Ribeiro</strong></h1>
   <h3>💻 Desenvolvedor <em>Fullstack</em></h3>
 </div>
 
@@ -20,4 +20,5 @@
   <img src="https://skillicons.dev/icons?i=linkedin&theme=light" alt="LinkedIn"/>
 </a>
 <a href="https://github.com/eduarddoribeiro" target="_blank">
-  <img src="h
+  <img src="https://skillicons.dev/icons?i=github&theme=light" alt="GitHub"/>
+</a>
