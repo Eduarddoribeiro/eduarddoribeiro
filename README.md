@@ -1,5 +1,5 @@
 <div>
-  <img style="100%" src="https://capsule-render.vercel.app/api?type=rect&height=100&section=header&reversal=false&text=Sejam%20bem%20vindos%20ao%20meu%20Github!&fontSize=28&fontColor=f5f5f5&fontAlign=50&fontAlignY=29&stroke=-&strokeWidth=0&animation=fadeIn&desc=Eduardo%20Ribeiro%20%7C%20Desenvolvedor%20Fullstack%E3%85%A4&descSize=20&descAlign=50&descAlignY=60&textBg=false&color=0A1F44"  />
+  <img style="100%" src="https://capsule-render.vercel.app/api?type=rect&height=180&section=header&reversal=false&text=Sejam%20bem%20vindos%20ao%20meu%20Github!&fontSize=37&fontColor=f5f5f5&fontAlign=50&fontAlignY=29&stroke=-&strokeWidth=0&animation=fadeIn&desc=Eduardo%20Ribeiro%20%7C%20Desenvolvedor%20Fullstack%E3%85%A4&descSize=24&descAlign=50&descAlignY=60&textBg=false&color=0A1F44"  />
 </div>
 
 ---
