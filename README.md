@@ -1,14 +1,10 @@
-<h2 align="center">Olá, meu nome é Eduardo Ribeiro!</h2>
-
-###
-
-<p align="center">Desenvolvedor Full Stack</p>
-
-###
-
 <div>
-  <img style="100%" src="https://capsule-render.vercel.app/api?type=slice&height=100&section=header&reversal=false&fontSize=70&fontColor=FFFFFF&fontAlign=50&fontAlignY=50&stroke=-&descSize=20&descAlign=50&descAlignY=50&color=undefined"  />
+  <img style="100%" src="https://capsule-render.vercel.app/api?type=rect&height=120&section=header&reversal=true&text=Eduardo%20Ribeiro&fontSize=70&fontColor=FFFFFF&fontAlign=50&fontAlignY=50&stroke=-&animation=fadeIn&descSize=20&descAlign=50&descAlignY=50&color=gradient"  />
 </div>
+
+###
+
+<h2 align="center">Desenvolvedor Full Stack</h2>
 
 ###
 
