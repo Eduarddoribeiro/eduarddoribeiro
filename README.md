@@ -16,6 +16,8 @@
   <img width="16" />
   <img src="https://skillicons.dev/icons?i=react" height="50" alt="react logo" />
   <img width="16" />
+  <img src="https://skillicons.dev/icons?i=python" height="50" alt="python logo" />
+  <img width="16" />
   <img src="https://skillicons.dev/icons?i=ts" height="50" alt="typescript logo" />
   <img width="16" />
   <img src="https://skillicons.dev/icons?i=tailwind" height="50" alt="tailwindcss logo" />
