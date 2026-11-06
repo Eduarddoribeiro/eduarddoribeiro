@@ -1,38 +1,53 @@
 ## Eduardo Ribeiro
 
-Desenvolvedor full stack em Viamão/RS. Faço sistemas para negócios de verdade, que as pessoas usam todo dia: a escola de futebol onde trabalho e a quadra de futsal do bairro rodam em sistemas que eu construí e mantenho.
+Desenvolvedor full stack em Viamão/RS. Faço sistemas que pessoas usam todo dia: uma escola de futebol e uma quadra de futsal rodam no que eu construí.
 
-Gosto de entender o problema antes do código, de deixar o banco de dados garantir as regras importantes e de interfaces que funcionam bem no celular.
+<table>
+  <tr>
+    <td width="50%" valign="top">
+      <a href="https://crm-escola-demo.vercel.app"><img src="assets/crm.png" alt="Painel do CRM: o que fazer hoje, agenda de experimentais e retornos"></a>
+      <br><b><a href="https://github.com/Eduarddoribeiro/interplus">CRM da escola de futebol</a></b> · <a href="https://crm-escola-demo.vercel.app">demo</a>
+      <br>Em uso na Escola Oficial do Inter: do agendamento da aula experimental à matrícula.
+    </td>
+    <td width="50%" valign="top">
+      <a href="https://deprimeira-demo.vercel.app"><img src="assets/de-primeira.png" alt="De Primeira no celular: agenda do dia, reserva e semana"></a>
+      <br><b><a href="https://github.com/Eduarddoribeiro/agenda-quadra">De Primeira</a></b> · <a href="https://deprimeira-demo.vercel.app">demo</a>
+      <br>Em uso num ginásio: horários livres e reserva em três toques, pelo celular.
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <a href="https://saldo-orpin.vercel.app"><img src="assets/saldim.png" alt="Saldim: saldo, dívida nos cartões e a receber"></a>
+      <br><b><a href="https://github.com/Eduarddoribeiro/saldim">Saldim</a></b> · <a href="https://saldo-orpin.vercel.app">demo</a>
+      <br>Finanças pessoais em que o saldo bate com o banco e com a fatura do cartão.
+    </td>
+    <td width="50%" valign="top">
+      <a href="https://acidentes-poa.onrender.com"><img src="assets/acidentes-poa.png" alt="Mapa de calor dos acidentes de trânsito em Porto Alegre"></a>
+      <br><b><a href="https://github.com/Eduarddoribeiro/acidentes-poa">Acidentes em Porto Alegre</a></b> · <a href="https://acidentes-poa.onrender.com">no ar</a>
+      <br>Pontos críticos de trânsito a partir de 87 mil registros abertos da Prefeitura.
+    </td>
+  </tr>
+</table>
 
-### Em uso real
+<details>
+<summary><b>Detalhes técnicos dos projetos</b></summary>
+<br>
 
-**[CRM da Escola Oficial do Inter, Viamão](https://github.com/Eduarddoribeiro/interplus)** · [demonstração](https://crm-escola-demo.vercel.app)\
-Leva a família do primeiro contato até a matrícula: agendamento da aula experimental pelo site, confirmação, presença, retornos pelo WhatsApp, lista de interesse e relatórios. Os dados são de crianças, então o acesso é controlado no próprio banco (Row Level Security) e o site público só cadastra por funções PL/pgSQL.\
-`React` `PostgreSQL` `Supabase` `PL/pgSQL` `Tailwind CSS` `Vercel`
+**CRM:** React, PostgreSQL e Supabase. Os dados são de crianças, então o acesso é controlado no banco com Row Level Security, e o site público só cadastra por funções PL/pgSQL que validam e conferem a vaga numa transação.
 
-**[De Primeira, agenda de quadra de futsal](https://github.com/Eduarddoribeiro/agenda-quadra)** · [demonstração](https://deprimeira-demo.vercel.app)\
-Usado pelo dono do ginásio para ver horários livres e reservar em três toques, com horários fixos semanais e mensagem pronta para o WhatsApp. Uma exclusion constraint no PostgreSQL impede reservas sobrepostas, mesmo que o código tenha um bug.\
-`Next.js` `TypeScript` `Drizzle ORM` `PostgreSQL` `PWA`
+**De Primeira:** Next.js, TypeScript, Drizzle e PostgreSQL, como PWA. Uma exclusion constraint impede reservas sobrepostas, mesmo que o código tenha um bug.
 
-### Outros projetos
+**Saldim:** React, TypeScript e Supabase com RLS. Cada compra cai na fatura certa pelos dias de fechamento, com parcelas e estornos, e há testes de ponta a ponta com Playwright.
 
-**[Saldim](https://github.com/Eduarddoribeiro/saldim)** · [demonstração](https://saldo-orpin.vercel.app)\
-Finanças pessoais em que o saldo bate com o banco: faturas de cartão com fechamento e parcelas reais, estornos e compras feitas para outras pessoas, com quanto cada uma deve.\
-`React` `TypeScript` `Supabase` `Playwright`
+**Acidentes em Porto Alegre:** Python, FastAPI, pandas e SQLite no back-end; React e Leaflet no front. A metodologia é aberta: registros descartados com o motivo e critério de ponto crítico tirado da análise exploratória.
 
-**[Acidentes de trânsito em Porto Alegre](https://github.com/Eduarddoribeiro/acidentes-poa)** · [no ar](https://acidentes-poa.onrender.com)\
-Mapa dos pontos críticos a partir de 87 mil registros abertos da Prefeitura, com metodologia, filtros e ranking. Interface em português e inglês.\
-`Python` `FastAPI` `pandas` `React` `Leaflet`
+**Análise de dados:** [churn em telecom](https://github.com/Eduarddoribeiro/Estudo-de-Caso-Churn) (um grupo com 60% de cancelamento) e [ENEM 2024](https://github.com/Eduarddoribeiro/analise-dados-enem-2024) (4,3 milhões de registros).
 
-**Análise de dados**\
-[Churn em telecom](https://github.com/Eduarddoribeiro/Estudo-de-Caso-Churn): um grupo com 60% de cancelamento e R$ 68 mil por mês em risco.\
-[ENEM 2024](https://github.com/Eduarddoribeiro/analise-dados-enem-2024): 4,3 milhões de registros sobre acesso a computador entre duas gerações.
+</details>
 
 ### Stack
 
-**Front-end:** React, TypeScript, Next.js, Tailwind CSS, Vite\
-**Back-end e dados:** PostgreSQL, Supabase, PL/pgSQL, Node.js, NestJS, Python, FastAPI, pandas\
-**Testes e entrega:** Vitest, Playwright, Git, Vercel
+<img src="https://skillicons.dev/icons?i=react,ts,nextjs,tailwind,vite,postgres,supabase,nodejs,nestjs,python,fastapi,vitest,git,vercel&perline=14" alt="React, TypeScript, Next.js, Tailwind CSS, Vite, PostgreSQL, Supabase, Node.js, NestJS, Python, FastAPI, Vitest, Git e Vercel">
 
 ### Contato
 
