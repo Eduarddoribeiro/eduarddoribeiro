@@ -10,7 +10,7 @@ Gosto de entender o problema antes do código, de deixar o banco de dados garant
 Leva a família do primeiro contato até a matrícula: agendamento da aula experimental pelo site, confirmação, presença, retornos pelo WhatsApp, lista de interesse e relatórios. Os dados são de crianças, então o acesso é controlado no próprio banco (Row Level Security) e o site público só cadastra por funções PL/pgSQL.\
 `React` `PostgreSQL` `Supabase` `PL/pgSQL` `Tailwind CSS` `Vercel`
 
-**De Primeira, agenda de quadra de futsal** · [demonstração](https://deprimeira-demo.vercel.app)\
+**[De Primeira, agenda de quadra de futsal](https://github.com/Eduarddoribeiro/agenda-quadra)** · [demonstração](https://deprimeira-demo.vercel.app)\
 Usado pelo dono do ginásio para ver horários livres e reservar em três toques, com horários fixos semanais e mensagem pronta para o WhatsApp. Uma exclusion constraint no PostgreSQL impede reservas sobrepostas, mesmo que o código tenha um bug.\
 `Next.js` `TypeScript` `Drizzle ORM` `PostgreSQL` `PWA`
 
